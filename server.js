@@ -15,7 +15,7 @@ app.use(cors());
 app.use(express.json());
 
 const SPREADSHEET_ID = process.env.SPREADSHEET_ID;
-const SHEET_NAME = 'Master Data';
+const SHEET_NAME = 'Sheet1';
 
 let authClient;
 
